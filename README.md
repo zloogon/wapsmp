@@ -15,6 +15,9 @@ Take the name after `ionic2-starter-`, and that is the name of the template to b
 $ sudo npm install -g ionic cordova
 $ ionic start myTabs tabs
 ```
+to run on browser:
+$ node install
+$ ionic serve
 
 Then, to run it, cd into `myTabs` and run:
 

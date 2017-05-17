@@ -1,6 +1,5 @@
 import { Component } from '@angular/core';
-import { NavController, ToastController } from 'ionic-angular';
-
+import { NavController, ToastController, App, ViewController } from 'ionic-angular';
 @Component({
   selector: 'page-about',
   templateUrl: 'about.html'
@@ -9,6 +8,9 @@ export class AboutPage {
 
   constructor(public navCtrl: NavController, public toastCtrl: ToastController) {
 
+  }
+
+  logout() {
   }
 
   showToast(position: string) {
